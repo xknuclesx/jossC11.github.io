@@ -132,38 +132,22 @@ footer p {
 #about p, #analysis p {
     margin-bottom: 20px;
 }
-
-.playlists, .image-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 20px;
-}
-
-.playlist, .image-gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.playlist img:hover, .image-gallery img:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-}
-#music {
-    text-align: center; /* Centra horizontalmente las imágenes */
-}
-
 .playlist-gallery {
     display: flex; /* Utiliza flexbox */
-    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
-    align-items: center; /* Centra verticalmente los elementos */
-    max-width: 1000px; /* Establece un ancho máximo para la galería */
-    margin: 0 auto; /* Centra la galería horizontalmente */
 }
 
-.playlist-gallery img {
-    width: 30%; /* Establece el ancho de las imágenes */
-    height: auto; /* Altura automática para mantener la proporción */
-    border-radius: 10px; /* Agrega bordes redondeados a las imágenes */
+.playlist-item {
+    flex: 1; /* Los elementos ocupan el mismo espacio */
+    margin-right: 10px; /* Margen entre las imágenes */
 }
+
+.playlist-item:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.playlist-item img {
+    width: 100%; /* Establece el ancho de las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
