@@ -150,3 +150,24 @@ footer p {
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
+
+.playlist-gallery {
+    display: flex; /* Utiliza flexbox */
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.playlist-item {
+    flex: 1; /* Hace que los elementos ocupen el mismo espacio */
+    margin-right: 10px; /* Añade un margen entre las imágenes */
+}
+
+.playlist-item:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.playlist-item img {
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px; /* Agrega bordes redondeados a las imágenes */
+}
