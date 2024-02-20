@@ -133,17 +133,31 @@ footer p {
     margin-bottom: 20px;
 }
 .playlist-gallery {
-    display: flex; /* Utiliza flexbox */
+    display: flex;
 }
 
-.playlist-gallery {
-    display: flex; /* Utiliza flexbox */
+.image-container {
+    position: relative;
+    margin-right: 10px;
 }
 
-.playlist-gallery img {
-    flex: 1; /* Los elementos ocupan el mismo espacio */
-    margin-right: 10px; /* Margen entre las imágenes */
-    width: 80px; /* Ancho más pequeño para todas las imágenes */
-    height: auto; /* Altura automática para mantener la proporción */
+.image-container img {
+    width: 70px;
+    height: auto;
 }
 
+.image-container p {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+.image-container:hover p {
+    display: block;
+}
