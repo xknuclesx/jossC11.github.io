@@ -143,7 +143,7 @@ footer p {
 .playlist-gallery img {
     flex: 1; /* Los elementos ocupan el mismo espacio */
     margin-right: 10px; /* Margen entre las imágenes */
-    width: 100px; /* Ancho fijo para todas las imágenes */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 50px; /* Ancho fijo para todas las imágenes */
+    height: 50px; /* Altura automática para mantener la proporción */
 }
 
