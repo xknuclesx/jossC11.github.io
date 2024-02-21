@@ -157,7 +157,7 @@ footer p {
     bottom: 0; /* Posicionamiento del texto en la parte inferior */
     left: 0; /* Posicionamiento del texto a la izquierda */
     color: white; /* Color del texto */
-    background-color: rgba(151, 130, 130, 0.5); /* Fondo semitransparente */
+    background-color: rgba(33, 11, 230, 0.5); /* Fondo semitransparente */
     padding: 5px; /* Relleno alrededor del texto */
     font-size: 16px; /* Tamaño de la fuente del texto */
   }
