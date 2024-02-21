@@ -136,6 +136,9 @@ footer p {
     display: flex; /* Utiliza flexbox */
 }
 
+.playlist-gallery {
+    display: flex; /* Utiliza flexbox */
+}
 
 .playlist-gallery img {
     flex: 1; /* Los elementos ocupan el mismo espacio */
