@@ -134,16 +134,17 @@ footer p {
 }
 .playlist-gallery {
     display: flex; /* Utiliza flexbox */
-}
-
-.playlist-gallery {
-    display: flex; /* Utiliza flexbox */
-}
-
-.playlist-gallery img {
+  }
+  
+  .playlist-gallery img {
     flex: 1; /* Los elementos ocupan el mismo espacio */
     margin-right: 10px; /* Margen entre las imágenes */
     width: 80px; /* Ancho más pequeño para todas las imágenes */
     height: auto; /* Altura automática para mantener la proporción */
-} 
-
+    transition: all 0.3s ease-in-out; /* Añade una transición suave */
+  }
+  
+  .playlist-gallery img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+    opacity: 0.8; /* Reduce la opacidad al pasar el mouse */
+  }
