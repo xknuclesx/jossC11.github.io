@@ -132,6 +132,7 @@ footer p {
 #about p, #analysis p {
     margin-bottom: 20px;
 }
+
 .playlist-gallery {
     display: flex; /* Utiliza flexbox */
   }
@@ -141,10 +142,22 @@ footer p {
     margin-right: 10px; /* Margen entre las imágenes */
     width: 80px; /* Ancho más pequeño para todas las imágenes */
     height: auto; /* Altura automática para mantener la proporción */
-    transition: all 0.3s ease-in-out; /* Añade una transición suave */
+    opacity: 0.8; /* Opacidad inicial */
+    transition: all 0.3s ease-in-out; /* Transición suave */
   }
   
   .playlist-gallery img:hover {
-    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
-    opacity: 0.8; /* Reduce la opacidad al pasar el mouse */
+    opacity: 1; /* Opacidad total al pasar el mouse */
+    position: relative; /* Posicionamiento relativo para el texto */
+  }
+  
+  .playlist-gallery img:hover::after {
+    content: attr(data-texto); /* Muestra el contenido del atributo data-texto */
+    position: absolute; /* Posicionamiento absoluto dentro de la imagen */
+    bottom: 0; /* Posicionamiento del texto en la parte inferior */
+    left: 0; /* Posicionamiento del texto a la izquierda */
+    color: white; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 5px; /* Relleno alrededor del texto */
+    font-size: 16px; /* Tamaño de la fuente del texto */
   }
