@@ -1,0 +1,176 @@
+.inlineblock div {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 6px;
+}
+
+.c1{
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.ejemplo {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+}
+
+.move-right {
+    float: right;
+}
+
+nav {
+    height: 70px;
+}
+
+.indice ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.indice ul{
+    padding: 0px;
+}
+
+.indice ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #FFFF00;
+}
+
+.fondo{
+    position: relative;
+    overflow: hidden;
+}
+
+.fondo h1{
+    margin-top: 180px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.fondo p{
+    width: 540px;
+    margin-top: 250px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.formulario{
+    height: 100px;
+    background-color: #F2F6F6;
+}
+
+.cartas{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.cartas div {
+    width: 280px;
+}
+
+.cartas div:nth-of-type(1) {
+    margin-left: 140px;
+}
+
+.cartas div:nth-of-type(2) {
+    padding-right: 134px;
+    padding-left: 134px;
+}
+
+.cartas div img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cartas div p:first-of-type {
+    margin: 0;
+    padding : 25px;
+    border: 0px;
+    background-color: #A3A656;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cartas div p:nth-of-type(2) {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cartas div button{
+    float: right;
+    background-color: #A3A656;
+    padding : 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+.cartas div button:hover{
+    color: #384001;
+}
+
+.suscripcion{
+    height: 770px;
+    background-color: #F2F6F6;
+}
+
+.suscripcion h1{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 70px;
+}
+
+.suscripcion div:first-of-type{
+    margin-left: 10px;
+}
+
+.suscripcion div:nth-of-type(2) {
+    padding-right: 134px;
+    padding-left: 134px;
+}
+
+.suscripcion div p{
+    text-align: center;
+}
+
+.suscripcion div div
+{
+    margin-right: 15px;
+    width: 233px;
+    height: 233px;
+    background-color: white;
+    border-radius: 50%;
+    border: 11px solid #384001;
+}
+
+.suscripcion div img{
+    padding: 55px;
+}
+
+.suscripcion div button{
+    display: block;
+    background-color: #A3A656;
+    width: 290px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+#padSpan {
+    padding-right: 40px;
+}
+
+/*Colores*/
+
+.colorprimario {
+    background-color: #A3A656;
+}
+.color-secundario{
+    background-color: #384001;
+}
+
+/*Fuentes*/
