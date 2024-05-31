@@ -1,12 +1,9 @@
+*{margin: 0px; padding: 0px;}
+
 .inlineblock div {
     display: inline-block;
     margin-left: 70px;
     margin-top: 6px;
-}
-
-.c1{
-    display: inline-flex;
-    margin-top: 10px;
 }
 
 .ejemplo {
