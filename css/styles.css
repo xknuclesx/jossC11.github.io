@@ -4,6 +4,10 @@
     display: inline-block;
 }
 
+.quitarul {
+    list-style-type: none;
+    color: #F2F6F6;
+}
 .move-right {
     float: right;
 }
@@ -80,12 +84,12 @@ nav div:nth-of-type(2) img {
 
 .fondo p{
     width: 600px;
-    margin-top: 250px;
+    margin-top: 280px;
     margin-left: 150px;
     position: absolute;
     font-size: 32px; 
     font-family: 'Inter';
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .formulario{
@@ -210,6 +214,9 @@ nav div:nth-of-type(2) img {
     font-size: 28px;
 }
 
+.quitar{
+    text-decoration: none;
+}
 .suscripcion div:nth-of-type(2) {
     padding-right: 134px;
     padding-left: 134px;
@@ -257,6 +264,7 @@ nav div:nth-of-type(2) img {
 
 .suscripcion div ul{
     width: 200px;
+    height: 100px;
     padding-left: 55px;
 }
 
@@ -286,12 +294,15 @@ nav div:nth-of-type(2) img {
     padding-right: 80px;
 }
 
+.piepagina ul li:hover {
+    color: #FFFF00;
+}
 .piepagina span{
     color: #A3A656;
     font-family: 'Inter';
     font-size: 14px;
     position: relative;
-    bottom: 10px;
+    bottom: 15px;
     right: 20px;
 }
 
